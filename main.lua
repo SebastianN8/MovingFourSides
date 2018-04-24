@@ -54,8 +54,6 @@ function upArrow:touch(event)
 	end
 end
 
-
-
 -- Down Arrow Functions
 function downArrow:touch(event)
 	if (event.phase == 'ended') then
@@ -68,8 +66,6 @@ function downArrow:touch(event)
 	end
 end
 
-
-
 -- Left Arrow Functions
 function leftArrow:touch(event)
 	if (event.phase == 'ended') then
@@ -81,8 +77,6 @@ function leftArrow:touch(event)
 			})
 	end
 end
-
-
 
 -- Right Arrow Functions
 function rightArrow:touch(event)
